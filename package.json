@@ -1,0 +1,43 @@
+{
+  "name": "star-wars-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit --silent"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "axios": "^1.4.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.3.4",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.2.1",
+    "vuetify": "3.3.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-modules": "^0.1.5",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/compiler-sfc": "^3.3.4",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "@vue/test-utils": "^2.3.2",
+    "@vue/vue3-jest": "^27.0.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "esm": "^3.2.25",
+    "ts-jest": "^27.1.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

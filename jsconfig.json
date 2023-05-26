@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Specifies the ECMAScript version to target for transpilation
+    "module": "esnext", // Sets the module code generation to ESNext, which allows the use of modern JavaScript features
+    "baseUrl": "./", // Specifies the base URL for module resolution
+    "moduleResolution": "node", // Uses Node.js-style module resolution algorithm
+    "paths": {
+      "@/*": [
+        "src/*" // Sets up a path alias "@/" that maps to files in the "src" directory
+      ]
+    },
+    "lib": [
+      "esnext", // Includes the ESNext library for accessing modern JavaScript features
+      "dom", // Includes the DOM library for working with the Document Object Model
+      "dom.iterable", // Includes the DOM Iterable library for working with iterable DOM collections
+      "scripthost" // Includes the ScriptHost library for working with host-specific scripting features
+    ]
+  }
+}
