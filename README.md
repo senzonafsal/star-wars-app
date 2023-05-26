@@ -6,7 +6,7 @@ This is a small web application based on the Star Wars API (https://swapi.dev/).
 
 To run the application locally, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/senzonafsal/star-wars-app.git`
 2. Navigate to the project directory: `cd star-wars-app`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run serve`
